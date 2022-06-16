@@ -1,0 +1,14 @@
+{
+    "name": "i-panov/ucaller-client",
+    "type": "library",
+    "require": {
+        "php":  ">=7.4",
+        "ext-json": "*",
+        "guzzlehttp/guzzle": "^7.4"
+    },
+    "autoload": {
+        "psr-4": {
+            "IPanov\\UcallerClient\\": "src/"
+        }
+    }
+}
